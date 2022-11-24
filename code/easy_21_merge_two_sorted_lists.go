@@ -6,12 +6,6 @@
 
 package code
 
-// Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 // @lc code=start
 //lint:ignore U1000 for leetcode
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
